@@ -1,38 +1,228 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
 .App {
-  text-align: center;
+ border-top:7px solid #6809E1;
+ height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modo-dark {
+  background-color: #373737;;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-dark {
+  width:490px;
+  height: 52px;
+  border-radius: 61px 0px 0px 61px;
+  border: 0.5px solid white;
+  background-color: #373737;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sugerencias {
+  width:100%;
+  height: 46px;
+  border: 0.5px solid rgb(220, 217, 220);
+  list-style: none;
+  background-color: white;
+}
+
+.sugerencias:hover{
+  background-color: rgb(237, 231, 231);
+  cursor: pointer;
+}
+
+.icono-buscar {
+  width: 20px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  cursor: pointer;
+}
+.icono-cerrar {
+  width: 13px;
+  position: absolute;
+  top: 19px;
+  left: 450px;
+  cursor: pointer;
+}
+
+.sugerencias-container{
+  width:570px;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #6809E1;
+  position: absolute;
+  top: 415px;
+}
+
+.header {
+  width: 900px;
+  height: 100px;
+}
+
+.max{
+  height: 100%;
+  margin-bottom:89%;
+}
+
+.not-found{
+  width: 100vw;
+  height: 400px;
+  background-color:#6809E1;
+}
+
+.filter {
+  width: 900px;
+  height: 100%;
+  margin-top: 39px;
+}
+
+
+.img {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.color-white {
+  color:white;
+}
+
+.flex {
   display: flex;
-  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-items-center {
   align-items: center;
+}
+
+.flex-direction {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.margin-left-69 {
+  margin-left: 69px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.margin-right-69 {
+  margin-right: 69px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 50px;
+}
+
+.relative {
+  position: relative;
+}
+
+.fondo-light {
+  background-color:#E7E7E7;
+  width: 900px;
+  height:100%;
+}
+
+.fondo-dark {
+  background-color:#212121;
+  width: 900px;
+  height:100%;
+}
+
+.padding-left-19 {
+  padding-left: 19px;
+}
+
+.padding-left-40 {
+  padding-left: 40px;
+}
+
+
+.padding-20 {
+  margin: 20px;
+}
+
+.btn-modo {
+  width: 148px;
+  height: 43px;
+  background: none;
+  border-radius: 61px;
+  border: 1px solid #6809E1;
+}
+
+.btn-modo-dark {
+  width: 148px;
+  height: 43px;
+  background: none;
+  border-radius: 61px;
+  border: 1px solid white;
+}
+
+.btn-modo:hover {
+  background-color: rgb(80, 227, 194);
+  border: none;
+  cursor: pointer;
+}
+
+.font {
+  font-family: 'Roboto', sans-serif;
+}
+
+.size-18 {
+  font-size: 18px;
+}
+
+.color-gris{
+  color: #3F3F3F;
+}
+.color {
+  color: #6809E1;
+}
+
+.weight-400 {
+  font-weight: 400;
+}
+
+.weight-900 {
+  font-weight: 900;
+}
+
+.input {
+  width:490px;
+  height: 52px;
+  border-radius: 61px 0px 0px 61px;
+  border: 1px solid #121212;
+  outline: none;
+}
+
+.btn-busqueda {
+  width:80px;
+  height: 52px;
+  border-radius: 0px 61px 61px 0px;
+  background-color: #6809E1;
+  border:none;
+  cursor: pointer;
 }
