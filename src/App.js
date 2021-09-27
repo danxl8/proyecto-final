@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Listo para comenzar</h1>
+      <h1>COMMIT AND PUSH</h1>
     </div>
   );
 }
