@@ -1,9 +1,9 @@
 
 import "./App.css";
 import { useState, useEffect } from "react";
-import Filter from "./Filter";
-import Header from "./Header";
-import Results from "./Results";
+import Filter from "./Components/Filter/Filter";
+import Header from "./Components/Header/Header";
+import Results from "./Components/Results/Results";
 function App(props) {
   const [modo, acutalizarModo] = useState(true);
   const [busqueda, acutalizarBusqueda] = useState("");
