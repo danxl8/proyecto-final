@@ -1,5 +1,5 @@
 import React from "react";
-import AutocompleteGif from "../AutocompleteGif/AutocompleteGif";
+import AutocompleteGif from "./Components/AutocompleteGif/AutocompleteGif";
 
 function Filter({
   modo,
