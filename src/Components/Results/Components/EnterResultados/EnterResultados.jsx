@@ -1,6 +1,6 @@
 import React from "react";
 
-const CardResultados = ({ title, images }) => {
+const EnterResultados = ({ title, images }) => {
   return (
     <img
       className="img padding-20"
@@ -10,4 +10,4 @@ const CardResultados = ({ title, images }) => {
   );
 };
 
-export default CardResultados;
+export default EnterResultados;

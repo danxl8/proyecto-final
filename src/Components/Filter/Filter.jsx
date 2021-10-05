@@ -1,5 +1,5 @@
 import React from "react";
-import AutocompleteGif from "./Components/AutocompleteGif/AutocompleteGif";
+import Completado from "./Components/Completado/Completado";
 
 function Filter({
   modo,
@@ -49,7 +49,7 @@ function Filter({
         {busqueda === "" ? (
           <></>
         ) : dataGif.length >= 0 && busqueda !== "" ? (
-          <AutocompleteGif
+          <Completado
             dataAuto={dataAuto}
             manejarBuscarBtn={manejarBuscarBtn}
           />

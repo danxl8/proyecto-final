@@ -1,5 +1,5 @@
 import React from "react";
-import CardResultados from "../CardResultados/CardResultados";
+import CardResultados from "../EnterResultados/EnterResultados";
 import NotFound from "../NotFound/NotFound";
 
 function TotalCards({ gifs, enviar, buscarBtn, modo }) {

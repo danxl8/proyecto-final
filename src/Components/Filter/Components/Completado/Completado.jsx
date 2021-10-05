@@ -1,6 +1,6 @@
 import React from "react";
 
-function AutocompleteGif({ manejarBuscarBtn, dataAuto }) {
+function Completado({ manejarBuscarBtn, dataAuto }) {
   return (
     <div
       onClick={manejarBuscarBtn}
@@ -33,4 +33,4 @@ function Sugerencias({ dataAuto }) {
   );
 }
 
-export default AutocompleteGif;
+export default Completado;

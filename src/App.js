@@ -28,8 +28,9 @@ function App(props) {
   };
   useEffect(() => {
     if (buscarBtn === true) {
-      let key = "dnozkXbIHV5DHw517JitLkUyUmMQpCXb";
+      let key = "1U5USTLV7vzzGGZcJxESgMyUmaEAZSWo";
       let urlSearch = "https://api.giphy.com/v1/gifs/search";
+
       let petision = fetch(
         `${urlSearch}?api_key=${key}&q=${busqueda}&limit=12&offset=0&rating=g&lang=en`
       );
@@ -44,8 +45,10 @@ function App(props) {
         });
     }
   }, [buscarBtn, busqueda]);
+
+  
   useEffect(() => {
-    let key = "dnozkXbIHV5DHw517JitLkUyUmMQpCXb";
+    let key = "1U5USTLV7vzzGGZcJxESgMyUmaEAZSWo";
     let petision = fetch(
       `https://api.giphy.com/v1/gifs/search/tags?api_key=${key}&q=${busqueda}&limit=5&offset=0&rating=g&lang=en`
     );
